@@ -1,0 +1,1 @@
+ffmpeg -f dshow -y -i video="FaceTime HD Camera (Built-in)" -t 00:00:20 out.mp4

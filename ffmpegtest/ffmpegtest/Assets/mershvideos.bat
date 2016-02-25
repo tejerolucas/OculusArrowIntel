@@ -1,0 +1,1 @@
+ffmpeg -y -i wayup20.mp4 -vf "movie=out.mp4[inner]; [in][inner] overlay [out]" completed.mp4
